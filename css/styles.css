@@ -1,0 +1,48 @@
+body{
+    font-size: small !important;
+}
+
+.hide{
+    display: none;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+}
+
+.photo > a > img {
+  /*border-radius: 50%;
+  border: 1px solid black;*/
+}
+
+.certifications-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-data {
+  display: flex;
+}
+
+.job-img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 5px;
+}
+
+.job-carousel {
+}
+
+.carousel > .carousel-inner {
+  height: 150px;
+}
+
+.carousel-inner > .carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 150px;
+}
