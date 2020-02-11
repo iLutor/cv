@@ -4,7 +4,9 @@
   "description": "Luis Torres",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "stop-win": "Taskkill /IM node.exe /F",
+    "stop-linux": "killall node"
   },
   "repository": {
     "type": "git",

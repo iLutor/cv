@@ -28,6 +28,8 @@ img{
 
 .job-data {
   display: flex;
+  align-self: center;
+  height: 100%;
 }
 
 .job-img {
@@ -53,4 +55,8 @@ img{
 
 .carousel-title{
     
+}
+
+.text-center{
+  align-self: center;
 }
