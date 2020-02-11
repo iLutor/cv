@@ -30,6 +30,7 @@ img{
   display: flex;
   align-self: center;
   height: 100%;
+  justify-content: space-between;
 }
 
 .job-img {
@@ -59,4 +60,10 @@ img{
 
 .text-center{
   align-self: center;
+}
+
+.row-list{
+  display: grid !important;
+  grid-template-rows: auto auto auto; 
+  justify-content: stretch;
 }
