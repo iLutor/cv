@@ -28,23 +28,15 @@ h1 {
       font-size: 2.2rem !important;
   }
 }
+
 .hide{
     display: none;
-}
-
-img{
-    /*display: none;*/
 }
 
 .title {
   display: flex;
   justify-content: space-between;
   height: 130px;
-}
-
-.photo > a > img {
-  /*border-radius: 50%;
-  border: 1px solid black;*/
 }
 
 .certifications-cards {
@@ -66,8 +58,6 @@ img{
   padding: 5px;
 }
 
-.job-carousel {
-}
 
 .carousel > .carousel-inner {
   height: 150px;
@@ -80,9 +70,71 @@ img{
   min-height: 150px;
 }
 
+.carousel-image{
+  height: 150px;
+}
+
+@media (min-width: 400px) {
+  .carousel > .carousel-inner {
+    height: 200px;
+  }
+  
+  .carousel-inner > .carousel-item {
+    min-height: 200px;
+  }
+
+  .carousel-image{
+    height: 200px;
+  }
+}
+
+@media (min-width: 600px) {
+  .carousel > .carousel-inner {
+    height: 100px;
+  }
+  
+  .carousel-inner > .carousel-item {
+    min-height: 100px;
+  }
+
+  .carousel-image{
+    height: 100px;
+  }
+}
+
+@media (min-width: 800px) {
+  .carousel > .carousel-inner {
+    height: 100px;
+  }
+  
+  .carousel-inner > .carousel-item {
+    min-height: 100px;
+  }
+
+  .carousel-image{
+    height: 100px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .carousel > .carousel-inner {
+    height: 150px;
+  }
+  
+  .carousel-inner > .carousel-item {
+    min-height: 150px;
+  }
+
+  .carousel-image{
+    height: 150px;
+  }
+}
 
 .carousel-title{
     
+}
+.carousel-center{
+  margin: auto;
 }
 
 .text-center{
