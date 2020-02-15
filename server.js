@@ -12,7 +12,8 @@ app.get('/', function (req, res) {
 });
 
 app.get('/3d', function (req, res) {
-  res.sendFile(path.join(__dirname + '/lutor.html'));
+  //res.sendFile(path.join(__dirname + '/lutor.html'));
+  res.sendFile(path.join(__dirname + '/cubic_images.html'));
 
 });
 app.listen(process.env.PORT || 8000);

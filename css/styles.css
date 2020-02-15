@@ -1,7 +1,33 @@
 body{
     font-size: small !important;
 }
+h1 {
+  font-size: 1.3rem !important;
+}
 
+@media (min-width: 400px) {
+  h1 {
+      font-size: 1.3rem !important;
+  }
+}
+
+@media (min-width: 600px) {
+  h1 {
+      font-size: 1.6rem !important;
+  }
+}
+
+@media (min-width: 800px) {
+  h1 {
+      font-size: 1.9rem !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  h1 {
+      font-size: 2.2rem !important;
+  }
+}
 .hide{
     display: none;
 }
@@ -64,7 +90,5 @@ img{
 }
 
 .row-list{
-  display: grid !important;
-  grid-template-rows: auto auto auto; 
-  justify-content: stretch;
+  justify-content: space-between
 }
