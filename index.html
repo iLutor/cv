@@ -19,9 +19,9 @@
       <div class="">
         <h1>Luis Fernando Torres León</h1>
         <h5>Ingeniero en informática</h5>
-        <email>ilutorln@gmail.com</email>
-        <small></small>
-        <button id="cmd"><i class="fas fa-file-download fa-1x"></i></button>
+        <div>
+            <email>ilutorln@gmail.com</email>
+        </div>
       </div>
       <div class="photo">
         <a href="https://www.linkedin.com/in/luis-torres-1734ba64" target="_blank">
@@ -37,9 +37,11 @@
         <div class="col-sm-9 carousel-center">
           <br>        
           <!--h3>Sobre mí</h3-->
-          <h5>
-              ¿Buscas Desarrollador Web?
-          </h5>
+          <div class="contact-info">            
+            <h5>¿Buscas Desarrollador Web?</h5>
+            <button id="cmd-screen" class="btn btn-light rounded-circle hide" title="Descarga PDF"><i class="fas fa-file-download fa-1x"></i></button>
+            <button id="cmd-print" class="btn btn-light rounded-circle " title="Descarga PDF"><i class="fas fa-print fa-1x"></i></button>
+          </div>
           </p>
             Me dedico al Desarrollo Web,
             me apasiona la tecnología y la programación,
@@ -55,7 +57,7 @@
             <a href="https://github.com/iLutor/" target="_blank">Github,</a>
             <!--a href="https://lutor3dprint.cl/" target="_blank">3D.</a-->
             <a href="/3d">3D.</a>
-          </p>
+          </p>          
         </div>
         <div class="col-sm-3 carousel-center">
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -500,5 +502,7 @@
   <script src="css/bootstrap-4.4.1-dist/js/jquery-3.4.1.min.js"></script>
   <script src="css/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+  <script src="node_modules/html2canvas/dist/html2canvas.min.js"></script>
+  <script src="src/js/moment.js"></script>
   <script src="src/js/script.js"></script>
 </html>

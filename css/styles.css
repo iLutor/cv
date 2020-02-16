@@ -155,3 +155,7 @@ h1 {
   padding: unset;
 }
 
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+}
