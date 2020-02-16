@@ -130,11 +130,9 @@ h1 {
   }
 }
 
-.carousel-title{
-    
-}
 .carousel-center{
   margin: auto;
+  text-align: justify;
 }
 
 .text-center{
@@ -143,4 +141,8 @@ h1 {
 
 .row-list{
   justify-content: space-between
+}
+
+.list-group-item{
+  padding: .25rem 1.25rem !important;
 }
