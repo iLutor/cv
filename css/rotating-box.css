@@ -47,7 +47,7 @@
 }
 
 .top-side{
-    transform: rotateX(-90deg)
+    transform: rotateX(90deg)
     translateY(-150px);
     transform-origin: top;
 }
@@ -105,4 +105,21 @@ h1 {
 
 p {
     color: #f8f9fa;
+}
+
+.navigation{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .35rem 1rem;
+   /*  margin-bottom: 1rem;*/
+    list-style: none;
+   /* background-color: #001e3c;*/
+    border-radius: .25rem;
+   /* border-bottom: white 1px solid;*/
+}
+
+.navigation a {
+    color: white;
 }
