@@ -14,7 +14,7 @@ $(document).ready(function(){
      }
     }
 	// Smooth scroll
-	$("#target").on('click', function(e) {
+	$("#nav-tabContent").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
