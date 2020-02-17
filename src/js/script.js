@@ -8,7 +8,7 @@ $(document).ready(function(){
     window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
-     if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+     if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
          mybutton.style.display = "block";
      } else {
          mybutton.style.display = "none";
