@@ -1,6 +1,7 @@
 body{
     font-size: small;
-    background-color: #001744;
+    background-color: #0b0911;
+    
 }
 h1 {
   font-size: 1.3rem ;
@@ -59,7 +60,7 @@ h1 {
   height: 50px;
   line-height: 50px;
   text-align: center;
-  background: #001744;
+  background: #0b0911;
   border-radius: 50px;
   color: #FFF;
   z-index: 9999;
@@ -69,7 +70,7 @@ h1 {
 }
 
 #back-to-top:hover {
-  background-color: #002163;
+  background-color: #110F17;
 }
 
 #back-to-top:after {
@@ -89,12 +90,12 @@ h1 {
   display: flex;
   justify-content: space-between;
   height: 130px;
-  background-color: #001744;
+  background-color: #0b0911;
   color: white;
 }
 
 .about-me{  
-  background-color: #001744;  
+  background-color: #0b0911;  
   color: white;
 }
 
@@ -207,7 +208,7 @@ h1 {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: #001744;
+  background-color: #0b0911;
 }
 
 .personal-proyects-list ul{ 
@@ -225,6 +226,10 @@ h1 {
 
 .nav-item {
   color: black;
+}
+
+.nav-item:hover {
+  color: #110F17;
 }
 
 .container-np{
