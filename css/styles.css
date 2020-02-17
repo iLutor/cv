@@ -1,5 +1,6 @@
 body{
     font-size: small;
+    background-color: #001744;
 }
 h1 {
   font-size: 1.3rem ;
@@ -33,10 +34,25 @@ h1 {
     display: none;
 }
 
+.footer{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
 .title {
   display: flex;
   justify-content: space-between;
   height: 130px;
+  background-color: #001744;
+  color: white;
+}
+
+.about-me{  
+  background-color: #001744;  
+  color: white;
 }
 
 .certifications-cards {
@@ -148,7 +164,7 @@ h1 {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: #000000;
+  background-color: #001744;
 }
 
 .personal-proyects-list ul{ 
@@ -158,4 +174,16 @@ h1 {
 .contact-info{
   display: flex;
   justify-content: space-between;
+}
+
+.badge a{
+  color: white;
+}
+
+.nav-item {
+  color: black;
+}
+
+.container-np{
+  padding: 0;
 }

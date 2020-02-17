@@ -15,7 +15,7 @@
 
   <body id="target">
     <!--title starts-->
-    <div id="title" class="title container shadow-sm p-3 mb-1 bg-white rounded rounded-circle">
+    <div id="title" class="title container p-3 mb-1">
       <div class="">
         <h1>Luis Fernando Torres León</h1>
         <h5>Ingeniero en informática</h5>
@@ -32,7 +32,7 @@
     </div>
     <!--title end-->
     <!--about-me starts-->
-    <div id="about-me" class="container shadow-sm mb-1 bg-white rounded">
+    <div id="about-me" class="about-me container mb-1">
       <div class="row">
         <div class="col-sm-9 carousel-center">
           <br>        
@@ -54,9 +54,10 @@
           <p>
             Full Stack , Java, C# , Python , React , Angular , Html , JavaScript
             CSS , MySQL, Postgresql , Web Design, New technologies, Game design,
-            <a href="https://github.com/iLutor/" target="_blank">Github,</a>
+            <span class="badge badge-dark"><a href="https://github.com/iLutor/" target="_blank"><i class="fab fa-github"></i>  Github</a></span>,
             <!--a href="https://lutor3dprint.cl/" target="_blank">3D.</a-->
-            <a href="/3d">3D.</a>
+            <span class="badge badge-dark"><a href="/3d"><i class="fas fa-cube"></i>  3D.</a></span>
+           
           </p>          
         </div>
         <div class="col-sm-3 carousel-center">
@@ -111,11 +112,11 @@
     <!--about-me end-->    
     <!--nav-tabs start-->
     <div class="mt-2 p-3 mb-1 bg-white">
-        <nav class="container">
+        <nav class="container container-np">
             <div class="nav justify-content-center nav-pills nav-fill" id="nav-tab" role="tablist">
               <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Experiencia</a>
               <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Proyectos personales</a>
-              <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Estudios</a>
+              <a class="nav-item nav-link hide" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Preguntas</a>
             </div>
         </nav>
         <div class="tab-content" id="nav-tabContent">
@@ -320,7 +321,72 @@
                   </dd>
                 </dl>
             </div>
-            <!--experience end-->
+            <!--experience end-->          
+            <!--studies starts-->
+            <div id="studies" class="container mt-2 shadow-sm p-3 mb-1 bg-white rounded">
+                <h6>Estudios</h6>
+                  <dl class="row">
+                    <dt class="col-sm-3 text-center">
+                      <img
+                        src="https://media-exp1.licdn.com/dms/image/C510BAQEraIsmS3WDAA/company-logo_100_100/0?e=1589414400&amp;v=beta&amp;t=KEMODeYKuPq5__uuOpFcjUvmnhd_ZAvYWTr1sqUOty8"
+                        loading="lazy" width="80" height="80" alt="Universidad Rafael Belloso Chacín" />
+                    </dt>
+                    <dd class="col-sm-9">
+                      <div class="display-flex text-center">
+                        <strong class=" notranslate">Universidad Rafael Belloso Chacín</strong>
+                        <p class="">Ingeniero en Informática</p>
+                        <h6 class="pv-entity__date-range t-14 t-black--light t-normal">
+                          <span> <time>2011</time> – <time>2014</time> </span>
+                        </h6>
+                      </div>
+                    </dd>
+                  </dl>
+            </div>
+            <!--studies end-->
+            <!--certifications starts-->
+            <div id="certifications" class="container mt-2 shadow-sm p-3 mb-5 bg-white rounded">
+              <h6>Certificaciones</h6>
+              <div class="p-3">
+                <div class="row">
+                  <!--certifications 4-->
+                  <div class="col-sm-3 card p-3 row-list">
+                    <strong class=" notranslate">Programa Innova. Emprendedores Saint</strong>
+                    <p class="">Instituto de Gerencia y Estrategia del Zulia (IGEZ)</p>
+                    <h6>
+                      <span>sep. de 2015</span>
+                    </h6>
+                  </div>
+                  <!--certifications 3-->
+                  <div class="col-sm-3 card p-3 row-list">
+                    <strong class=" notranslate">Diseño y Animacion en 3D con Blender</strong>
+                    <p class="">Universidad del Zulia</p>
+                    <h6>
+                      <span>oct. de 2015</span>
+                    </h6>
+                  </div>
+                  <!--certifications 2-->
+                  <div class="col-sm-3 card p-3 row-list">
+                    <strong class=" notranslate">Brand Management and Personal Branding</strong>
+                    <p class="">Universidad Rafael Belloso Chacín</p>
+                    <h6>
+                      <span>feb. de 2020</span>
+                    </h6>
+                  </div>
+                  <!--certifications 1-->
+                  <div class="col-sm-3 card p-3 row-list">
+                    <strong class=" notranslate">
+                      <a href="https://platzi.com/@iluifer/curso/1540-flask/diploma/detalle/" target="_blank">
+                        Curso de Flask
+                      </a></strong>
+                    <p class="">Platzi</p>
+                    <h6>
+                      <span>feb. de 2020</span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--certifications end-->
           </div>
           <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
             <!--personal start-->
@@ -427,78 +493,97 @@
             </div>
             <!--personal end-->
           </div>
-          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">            
-            <!--studies starts-->
-            <div id="studies" class="container mt-2 shadow-sm p-3 mb-1 bg-white rounded">
-                <h6>Estudios</h6>
-                  <dl class="row">
-                    <dt class="col-sm-3 text-center">
-                      <img
-                        src="https://media-exp1.licdn.com/dms/image/C510BAQEraIsmS3WDAA/company-logo_100_100/0?e=1589414400&amp;v=beta&amp;t=KEMODeYKuPq5__uuOpFcjUvmnhd_ZAvYWTr1sqUOty8"
-                        loading="lazy" width="80" height="80" alt="Universidad Rafael Belloso Chacín" />
-                    </dt>
-                    <dd class="col-sm-9">
-                      <div class="display-flex text-center">
-                        <strong class=" notranslate">Universidad Rafael Belloso Chacín</strong>
-                        <p class="">Ingeniero en Informática</p>
-                        <h6 class="pv-entity__date-range t-14 t-black--light t-normal">
-                          <span> <time>2011</time> – <time>2014</time> </span>
-                        </h6>
-                      </div>
-                    </dd>
-                  </dl>
-              </div>
-              <!--studies end-->
-              <!--certifications starts-->
-              <div id="certifications" class="container mt-2 shadow-sm p-3 mb-5 bg-white rounded">
-                <h6>Certificaciones</h6>
-                <div class="p-3">
-                  <div class="row">
-                    <!--certifications 4-->
-                    <div class="col-sm-3 card p-3 row-list">
-                      <strong class=" notranslate">Programa Innova. Emprendedores Saint</strong>
-                      <p class="">Instituto de Gerencia y Estrategia del Zulia (IGEZ)</p>
-                      <h6>
-                        <span>sep. de 2015</span>
-                      </h6>
-                    </div>
-                    <!--certifications 3-->
-                    <div class="col-sm-3 card p-3 row-list">
-                      <strong class=" notranslate">Diseño y Animacion en 3D con Blender</strong>
-                      <p class="">Universidad del Zulia</p>
-                      <h6>
-                        <span>oct. de 2015</span>
-                      </h6>
-                    </div>
-                    <!--certifications 2-->
-                    <div class="col-sm-3 card p-3 row-list">
-                      <strong class=" notranslate">Brand Management and Personal Branding</strong>
-                      <p class="">Universidad Rafael Belloso Chacín</p>
-                      <h6>
-                        <span>feb. de 2020</span>
-                      </h6>
-                    </div>
-                    <!--certifications 1-->
-                    <div class="col-sm-3 card p-3 row-list">
-                      <strong class=" notranslate">
-                        <a href="https://platzi.com/@iluifer/curso/1540-flask/diploma/detalle/" target="_blank">
-                          Curso de Flask
-                        </a></strong>
-                      <p class="">Platzi</p>
-                      <h6>
-                        <span>feb. de 2020</span>
-                      </h6>
-                    </div>
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">  
+            <!--questions starts-->
+            <div id="questions" class="container mt-2 shadow-sm p-3 mb-5 bg-white rounded">
+                <h6>Preguntas</h6>
+                <div class="card">
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>¿Sobre mi experiencia y perfil profesional?</p>
+                      <footer class="blockquote-footer">
+                      Had five or more years of experience as a software engineer
+                      work well with teams and help those around me improve
+                      Desarrollo de aplicaciones web para clientes de distintos ámbitos a lo largo de mi carrera, diseño he implmentación de soluciones para automatizar tareas en empresas.  
+                      </footer>
+                    </blockquote>
                   </div>
                 </div>
-              </div>
-              <!--certifications end-->
+                <div class="card">
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>¿Formación academica y estudios?</p>
+                      <footer class="blockquote-footer">
+                      Desarrollo de aplicaciones web para clientes de distintos ámbitos a lo largo de mi carrera, diseño he implmentación de soluciones para automatizar tareas en empresas.  
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>Cuando estás programando, ¿Qué buenas prácticas de código prefieres utilizar?</p>
+                      <footer class="blockquote-footer">
+                      Write clean and reusable code
+                      writing reliable, scalable, testable and maintainable code
+                      Desarrollo de aplicaciones web para clientes de distintos ámbitos a lo largo de mi carrera, diseño he implmentación de soluciones para automatizar tareas en empresas.  
+                      <cite>02-2020</cite></footer>
+                    </blockquote>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>¿Qué lenguajes de programación prefieres utilizar?, ¿Por qué?</p>
+                      <footer class="blockquote-footer">
+                        
+                      Have deep experience with JavaScript, Node.JS, React, Redux, and preferably Flow or TypeScript
+                      Desarrollo de aplicaciones web para clientes de distintos ámbitos a lo largo de mi carrera, diseño he implmentación de soluciones para automatizar tareas en empresas.  
+                      <cite>02-2020</cite></footer>
+                    </blockquote>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>Si pudieras aprender una tecnología nueva, ¿Cuál sería?, ¿Por qué?</p>
+                      <footer class="blockquote-footer">
+                      Desarrollo de aplicaciones web para clientes de distintos ámbitos a lo largo de mi carrera, diseño he implmentación de soluciones para automatizar tareas en empresas.  
+                      <cite>02-2020</cite></footer>
+                    </blockquote>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>¿Cuál es tu nivel de Inglés hablado y Escrito?</p>
+                      <footer class="blockquote-footer">
+                        Fluent in written and oral English
+                      <cite>02-2020</cite></footer>
+                    </blockquote>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>¿Estas buscando a un desarrollador en Java?</p>
+                      <footer class="blockquote-footer">
+                      Desarrollo de aplicaciones web para clientes de distintos ámbitos a lo largo de mi carrera, diseño he implmentación de soluciones para automatizar tareas en empresas.  
+                      <cite>02-2020</cite></footer>
+                    </blockquote>
+                  </div>
+                </div>
+            </div>
+            <!--questions end-->
           </div>
         </div>
     </div>
     <!--nav-tabs end-->
 
   </body>
+  <footer id="footer" class="footer">
+      © 2020 Luis Fernando Torres león. Todos los derechos reservados.
+  </footer>
   <script src="css/bootstrap-4.4.1-dist/js/jquery-3.4.1.min.js"></script>
   <script src="css/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
