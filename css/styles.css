@@ -4,6 +4,22 @@ body{
 }
 h1 {
   font-size: 1.3rem ;
+  color: white;
+}
+.a-title:link {
+  text-decoration: none;
+}
+
+.a-title:visited {
+  text-decoration: none;
+}
+
+.a-title:hover {
+  text-decoration: none;
+}
+
+.a-title:active{
+  text-decoration: none;
 }
 
 @media (min-width: 400px) {
