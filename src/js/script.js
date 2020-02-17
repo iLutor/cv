@@ -3,7 +3,6 @@ $(document).ready(function(){
     ///////////////////////////
     // //Get the button
     var mybutton = document.getElementById("back-to-top");
-
     // // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function() {scrollFunction()};
 
@@ -15,7 +14,7 @@ $(document).ready(function(){
      }
     }
 	// Smooth scroll
-	$("#nav .main-nav a[href^='#']").on('click', function(e) {
+	$("#target").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
