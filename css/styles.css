@@ -2,11 +2,13 @@ body{
     font-size: small;
     background-color: #0b0911;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right top, #36236b, #038a7e);
 }
 h1 {
   font-size: 1.3rem ;
   color: white;
 }
+
 .a-title:link {
   text-decoration: none;
 }
@@ -60,7 +62,7 @@ h1 {
   height: 50px;
   line-height: 50px;
   text-align: center;
-  background: #0b0911;
+  background: #038a7e;
   border-radius: 50px;
   color: #FFF;
   z-index: 9999;
@@ -70,7 +72,7 @@ h1 {
 }
 
 #back-to-top:hover {
-  background-color: #110F17;
+  background-color: #36236b;
 }
 
 #back-to-top:after {
@@ -90,12 +92,12 @@ h1 {
   display: flex;
   justify-content: space-between;
   height: 130px;
-  background-color: #0b0911;
+  /*background-color: #0b0911;*/
   color: white;
 }
 
 .about-me{  
-  background-color: #0b0911;  
+   /*background-color: #0b0911; */
   color: white;
 }
 
@@ -208,7 +210,8 @@ h1 {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: #0b0911;
+  /*background-color: #0b0911;*/
+  background: linear-gradient(to right top, #36236b, #038a7e);
 }
 
 .personal-proyects-list ul{ 
@@ -220,8 +223,14 @@ h1 {
   justify-content: space-between;
 }
 
+/*bootstrap badge*/
+
 .badge a{
   color: white;
+}
+
+.badge-dark{
+  background-color: #36236b;
 }
 
 .nav-item {
@@ -235,3 +244,4 @@ h1 {
 .container-np{
   padding: 0;
 }
+
