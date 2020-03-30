@@ -20,8 +20,8 @@
       <div class="">
         <a href="http://cv-luis-torres.herokuapp.com/" class="a-title"><h1>Luis Fernando Torres León</h1></a> 
         <h5>Ingeniero en informática</h5>
-        <div>
-            <email>ilutorln@gmail.com</email>
+        <div>     
+            Correo: <email><a class="contact-field" href="mailto:ilutorln@gmail.com">ilutorln@gmail.com</a></email> 
         </div>
       </div>
       <div class="photo">
@@ -35,19 +35,19 @@
     <!--about-me starts-->
     <div id="about-me" class="about-me container mb-1">
       <div class="row">
-        <div class="col-sm-9 carousel-center">
+        <div class="col-sm-10 carousel-center">
           <br>        
           <!--h3>Sobre mí</h3-->
-          <div class="contact-info">            
-            <h5>¿Buscas Desarrollador Web?</h5>
-            <button id="cmd-screen" class="btn btn-light rounded-circle hide" title="Descarga PDF"><i class="fas fa-file-download fa-1x"></i></button>
-            <button id="cmd-print" class="btn btn-light rounded-circle " title="Descarga PDF"><i class="fas fa-print fa-1x"></i></button>
+          <div class="contact-info">           
           </div>
-          </p>
+          <p>
             Me dedico al Desarrollo Web,
             me apasiona la tecnología y la programación,
-            he trabajado en multiples proyectos para empresas,
             me gusta lenvantar requerimientos, automatizar procesos y resolver problemas.
+          </p>
+          <p>
+            Con más de 5 años de experiencia, he trabajado en múltiples proyectos en Java 8 
+            usando el framework Vaadin ó con C# usando .Net y bases de datos SQL.
           </p>
           <p>
             Principales intereses:
@@ -57,11 +57,10 @@
             CSS , MySQL, Postgresql , Web Design, New technologies, Game design,
             <span class="badge badge-dark"><a href="https://github.com/iLutor/" target="_blank"><i class="fab fa-github"></i>  Github</a></span>,
             <!--a href="https://lutor3dprint.cl/" target="_blank">3D.</a-->
-            <span class="badge badge-dark"><a href="/3d"><i class="fas fa-cube"></i>  3D.</a></span>
-           
+            <span class="badge badge-dark"><a href="/3d"><i class="fas fa-cube"></i>  3D.</a></span>           
           </p>          
         </div>
-        <div class="col-sm-3 carousel-center">
+        <div class="col-sm-3 carousel-center hide">
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -394,106 +393,151 @@
           <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
             <!--personal start-->
             <div id="personal" class="container mt-2 shadow-sm p-3 mb-1 bg-white rounded personal-proyects-list">
-                <div>
-                    <h6>Proyectos personales</h6>
-                </div>                
-                <div class="row">
-                  <div class="col-sm-12 col-md-6">
-                      <ul>
-                          <li class="list-group-item list-group-item-light">            
-                            <h6>Python</h6>
-                          </li>
-                          <li class="list-group-item">
-                            <strong>Clone Generator</strong>
-                            <p>
-                              Clona un proyecto base de un origen a un destino, modificando internamente todas las apariciones del nombre definido del proyecto con el objetivo de crear una copia personalizada.
-                            </p>
-                          </li>
-                          <li class="list-group-item">
-                            <strong>Translator App</strong> 
-                            <p>
-                              Permite reemplazar multiples lineas de los archivos en un directorio especifico.
-                            </p>
-                          </li>
-                          <li class="list-group-item">
-                            <strong>Hours Counter</strong>                  
-                            <p>
-                              Cuenta las horas de la semana para calcular diariamente las horas de salida.
-                            </p>
-                          </li>
-                          <li class="list-group-item">
-                            <strong>Tarot Search</strong> 
-                            <p>
-                              Permite buscar multiples cartas utilizando el nombre real para leer su interpretación.
-                            </p>
-                          </li>
-                          <li class="list-group-item">
-                            <strong>Currency UF Calculator</strong> 
-                            <p>
-                              Permite calcular el <a href="https://www.calculadora-uf.cl/">valor de la uf</a>  en pesos utilizando  <a href="https://www.google.com/search?q=2000*28.381,59">google de calculadora </a> 
-                            </p>
-                          </li>
-                          <li class="list-group-item">
-                            <strong>AiNaming</strong> 
-                            <p>
-                              Neurona capaz de generar los nombres de proyectos según palabras ingresadas
-                            </p>
-                          </li>
-                          <li class="list-group-item list-group-item-light">            
-                            <h6>HTML CSS Npm</h6>
-                          </li>
-                          <li class="list-group-item">                  
-                              <strong>Personal Curriculum vitae</strong>
-                              <p>
-                                Curriculum personal online 
-                              </p>
-                          </li>
-                        </ul>
-                  </div>
-                  <div class="col-sm-12 col-md-6">
-                      <ul>
-                        <li class="list-group-item list-group-item-light">            
-                            <h6>Java / React</h6>
-                        </li>
-                        <li class="list-group-item">
-                          <strong>ReadMailsEngine</strong>
+              <div>
+                  <h6>Proyectos personales</h6>
+              </div>                
+              <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <ul>                        
+                      <li class="list-group-item list-group-item-light">       
+                          <h6>React</h6>
+                      </li>  
+                      <li class="list-group-item ">
+                        <div class="d-flex justify-content-between">
+                          <strong>Administración de pacientes</strong> 
+                          <a href="https://eager-heisenberg-1c6ce1.netlify.com/" target="_blank">Ver online</a>
+                        </div>
+                        <p>
+                          Administra citas para pacientes usando local storage
+                        </p>        
+                      </li>  
+                      <li class="list-group-item ">
+                        <div class="d-flex justify-content-between">
+                          <strong>Cotizador de seguros</strong> 
+                          <a href="https://peaceful-pare-9fb066.netlify.com/" target="_blank">Ver online</a>
+                        </div>
+                        <p>
+                          Cotizador de seguros de autos usando styled components
+                        </p>
+                      </li>
+                      <li class="list-group-item ">
+                        <div class="d-flex justify-content-between">
+                          <strong>Gasto mensual</strong> 
+                          <a href="https://pensive-shannon-964682.netlify.com/" target="_blank">Ver online</a>
+                        </div>
+                        <p>
+                          Te permite generar tu presupuesto de gasto mensual 
+                        </p>
+                      </li>
+                      <li class="list-group-item ">
+                        <div class="d-flex justify-content-between">
+                          <strong>React Weather</strong> 
+                          <a href="https://trusting-mcclintock-4e8cf9.netlify.com/" target="_blank">Ver online</a>
+                        </div>
+                        <p>
+                          Consume una api de clima para obtener valores en el lugar ingresado.
+                        </p>
+                      </li>                                  
+                      <li class="list-group-item list-group-item-light">       
+                          <h6>Angular</h6>
+                      </li>  
+                      <li class="list-group-item">
+                        <strong>Reminders</strong>
+                        <p>
+                          Es una herramienta útil que te permite categorizar y administrar tus notas y links que quieres recordar
+                        </p>
+                      </li>
+                      <li class="list-group-item list-group-item-light">            
+                        <h6>HTML CSS Npm</h6>
+                      </li>
+                      <li class="list-group-item">                  
+                          <strong>Personal Curriculum vitae</strong>
                           <p>
-                            Motor de lectura de correos para generar objetos en la base de datos, con una interfaz de administración de items creados, con un diseño original.
+                            Curriculum personal online 
                           </p>
-                        </li>
-                        <li class="list-group-item list-group-item-light">     
-                            <h6>Juegos</h6>
-                        </li>                
-                        <li class="list-group-item"><strong>Skill Handler</strong> (Game Jam 2015)
-                          <p>
-                            Como Game designer me dedique a administrar los recursos que teniamos disponibles ya que nuestro equipo era multidiciplinario,
-                            integrar las ideas, definir los niveles, mapas, orden de las canciones, participar en el desarrollo de funcionalidades y diseño de assets.
-                          </p>
-                        </li>
-                        <li class="list-group-item"><strong>Tag'em</strong> (Game Jam 2019)
-                          <p>
-                            Con mi amigo Alonso hicimos un juego con la tecnología de <a href="https://www.airconsole.com/">AirConsole</a>
-                          </p>
-                        </li>
-                          <li class="list-group-item list-group-item-light">       
-                              <h6>Cursos</h6>
-                          </li>           
-                          <li class="list-group-item">
-                            <strong>Todo List Flask</strong>                  
-                            <p>
-                              Aplicacion de lista de tareas CRUD web hecho con flask.
-                            </p>
-                          </li>
-                          <li class="list-group-item ">
-                            <strong>React Weather</strong> 
-                            <p>
-                              Consume una api de clima para obtener valores en el lugar ingresado.
-                            </p>
-                          </li>
-                        </ul>
-                  </div>
-                </div>      
-            </div>
+                      </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <ul>
+                      <li class="list-group-item list-group-item-light">            
+                          <h6>Java / React</h6>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>ReadMailsEngine</strong>
+                        <p>
+                          Motor de lectura de correos para generar objetos en la base de datos, con una interfaz de administración de items creados, con un diseño original.
+                        </p>
+                      </li>
+                      <li class="list-group-item list-group-item-light">     
+                          <h6>Juegos</h6>
+                      </li>                
+                      <li class="list-group-item"><strong>Skill Handler</strong> (Game Jam 2015)
+                        <p>
+                          Como Game designer me dedique a administrar los recursos que teniamos disponibles ya que nuestro equipo era multidiciplinario,
+                          integrar las ideas, definir los niveles, mapas, orden de las canciones, participar en el desarrollo de funcionalidades y diseño de assets.
+                        </p>
+                      </li>
+                      <li class="list-group-item"><strong>Tag'em</strong> (Game Jam 2019)
+                        <p>
+                          Con mi amigo Alonso hicimos un juego con la tecnología de <a href="https://www.airconsole.com/">AirConsole</a>
+                        </p>
+                      </li>
+                      <li class="list-group-item list-group-item-light">            
+                        <h6>Python</h6>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Clone Generator</strong>
+                        <p>
+                          Clona un proyecto base de un origen a un destino, modificando internamente todas las apariciones del nombre definido del proyecto con el objetivo de crear una copia personalizada.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Translator App</strong> 
+                        <p>
+                          Permite reemplazar multiples lineas de los archivos en un directorio especifico.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Hours Counter</strong>                  
+                        <p>
+                          Cuenta las horas de la semana para calcular diariamente las horas de salida.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Tarot Search</strong> 
+                        <p>
+                          Permite buscar multiples cartas utilizando el nombre real para leer su interpretación.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Currency UF Calculator</strong> 
+                        <p>
+                          Permite calcular el <a href="https://www.calculadora-uf.cl/">valor de la uf</a>  en pesos utilizando  <a href="https://www.google.com/search?q=2000*28.381,59">google de calculadora </a> 
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>AiNaming</strong> 
+                        <p>
+                          Neurona capaz de generar los nombres de proyectos según palabras ingresadas
+                        </p>
+                      </li>
+                      <li class="list-group-item list-group-item-light">       
+                          <h6>Flask</h6>
+                      </li>           
+                      <li class="list-group-item">
+                        <div class="d-flex justify-content-between">
+                          <strong>Todo List Flask</strong>       
+                          <a href="https://todo-flask-production.appspot.com/auth/login?next=%2Fhello" target="_blank">Ver online</a>
+                        </div>       
+                        <p>
+                          Aplicacion de lista de tareas CRUD web hecho con flask.
+                        </p>
+                      </li>
+                    </ul>
+                </div>
+              </div>      
+          </div>
             <!--personal end-->
           </div>
           <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">  
@@ -580,6 +624,7 @@
             <!--questions end-->
           </div>
         </div>
+        <button id="cmd-print" class="btn btn-light rounded-circle" title="Descarga PDF"><i class="fas fa-print fa-xs"></i></button>
     </div>
     <!--nav-tabs end-->
 

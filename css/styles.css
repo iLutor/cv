@@ -7,7 +7,36 @@ body{
 }
 h1 {
   font-size: 1.3rem ;
+  /* color: #281e45; */
   color: white;
+}
+
+.printable-text{
+  color: black !important;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+  /*background-color: #0b0911;*/
+  color: white;
+}
+
+.contact-field{
+  color: white;
+}
+.contact-field:hover{
+  color: white;
+ }
+
+.about-me{  
+   /*background-color: #0b0911; */
+  color: white;
+}
+
+.about-me > div > div > p {
+  font-size: 1rem;  
 }
 
 .a-title:link {
@@ -89,18 +118,8 @@ h1 {
   text-align: center;
 }
 
-.title {
-  display: flex;
-  justify-content: space-between;
-  height: 130px;
-  /*background-color: #0b0911;*/
-  color: white;
-}
 
-.about-me{  
-   /*background-color: #0b0911; */
-  color: white;
-}
+
 
 .certifications-cards {
   display: flex;
@@ -235,6 +254,8 @@ h1 {
 }
 
 .nav-item {
+  border-bottom: solid 0.5px #25527c6b;
+  border-radius: 0px !important;
   color: black;
 }
 
