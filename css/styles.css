@@ -32,7 +32,9 @@ h1 {
 
 .about-me{  
    /*background-color: #0b0911; */
-  color: white;
+  color: white;  
+  padding: 40px;
+  text-align: center;
 }
 
 .about-me > div > div > p {
@@ -254,9 +256,11 @@ h1 {
 }
 
 .nav-item {
-  border-bottom: solid 0.5px #25527c6b;
+  border: solid 0.5px #25527c6b;
   border-radius: 0px !important;
-  color: black;
+  color: black;  
+  padding: 10px;
+  margin: 1px;
 }
 
 .nav-item:hover {
