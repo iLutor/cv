@@ -11,6 +11,14 @@ h1 {
   color: white;
 }
 
+.hover-effect {
+  color:white;
+}
+.hover-effect:hover{
+  transition: 3s ease cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color:#312e6d;
+}
+
 .printable-text{
   color: black !important;
 }
@@ -120,7 +128,6 @@ h1 {
   margin-bottom: 5px;
   text-align: center;
 }
-
 
 
 
@@ -262,6 +269,7 @@ h1 {
   color: black;  
   padding: 10px;
   margin: 1px;
+  font-size: 1rem;
 }
 
 .nav-item:hover {
