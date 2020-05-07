@@ -129,6 +129,23 @@ h1 {
   text-align: center;
 }
 
+.footer > a {
+  color :white;
+}
+
+.footer-button {
+  background-color :#23a6d5;
+  border-radius: 6px;
+  border:1px solid grey;
+  color:white;
+  margin:15px;
+  padding:10px;
+}
+
+.footer-button:hover {
+  background-color :#336191;
+  border-radius: 6px;
+}
 
 
 .certifications-cards {
