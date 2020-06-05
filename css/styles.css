@@ -382,3 +382,10 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+/*certifications*/
+.certification-row{
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
