@@ -1,9 +1,18 @@
+:root {
+  --purple: #312e6d;
+}
+
 body {
   background-color: #0b0911;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   background: linear-gradient(to right top, #36236b, #038a7e);
   height: -100vh;
 }
+
+header#title {
+  padding: 1em;
+}
+
 h1 {
   font-size: 1.3rem;
   /* color: #281e45; */
@@ -36,13 +45,76 @@ h4 {
   color: black !important;
 }
 
+.social-media {
+  padding-top: 1em;
+  display: flex;
+  align-content: center;
+  column-gap: 0.5em;
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.social-media li a:focus {
+  outline: none;
+}
+.social-media li a:focus-within {
+  outline: 4px solid var(--purple);
+
+  /* box-shadow: 0 0 3pt 2pt var(--purple); */
+}
+
+.social-media li a {
+  display: flex;
+  align-content: center;
+}
+
+.social-media-text {
+  padding-left: 0.5em;
+  padding-top: 4px;
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+
+.photo a img {
+  box-shadow: 0 0 0 3px #312e6d;
+}
+
 .title {
   display: flex;
   justify-content: space-between;
-  height: 130px;
+  /* height: 150px; */
   /*background-color: #0b0911;*/
   color: white;
   margin-top: 20px;
+}
+
+.rapid-access {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skip-link {
+  height: 0px;
+  width: 0px;
+  color: #ff000000;
+  top: 0;
+  left: 0;
+}
+
+.skip-link:focus,
+.skip-link:active {
+  background: var(--purple);
+  border-radius: 20px;
+  color: white;
+  height: auto;
+  width: auto;
+  margin: 1em 0 0.5em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  margin: 1em;
+  outline: 4px solid var(--purple);
 }
 
 .contact-field {
@@ -55,8 +127,16 @@ h4 {
 .about-me {
   /*background-color: #0b0911; */
   color: white;
-  padding: 40px;
+  padding: 1.75em 40px;
   text-align: center;
+}
+
+.about-me__secondary {
+  color: white;
+  background-color: #312e6d;
+  text-align: center;
+  font-size: 1rem;
+  padding: 40px;
 }
 
 .about-me > div > div > p {
@@ -279,12 +359,33 @@ a {
 
 .row-list {
   justify-content: space-between;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 8px;
 }
 
 .list-group-item {
   padding: 0.25rem 1.25rem;
+  border: 0;
+}
+
+.list-group-item__child {
+  padding: 1em 1.25rem;
+}
+
+.list-group-item-light {
+  color: #ffffff;
+  background-color: #0e9393;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.list-group-item h4 {
+  padding-top: 0.5rem;
+}
+
+.nav li {
+  width: 50%;
+  padding: 0px 8px;
 }
 
 .nav-pills .nav-link.active,
@@ -312,17 +413,38 @@ a {
   background-color: #36236b;
 }
 
+.nav-pills .nav-link {
+  border-radius: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge {
+  border-radius: 20px;
+}
+
 .nav-item {
   border: solid 0.5px #25527c6b;
-  border-radius: 0px !important;
+  border-radius: 20px;
   color: black;
   padding: 10px;
   margin: 1px;
   font-size: 1rem;
 }
 
-.nav-item:hover {
-  color: #110f17;
+.nav-pills .nav-link.active:hover,
+.nav-pills .show > .nav-link:hover,
+.nav-pills .nav-link:hover {
+  background: #312e6d;
+  color: #fff;
+}
+
+.nav-pills .nav-link:focus {
+  background: #312e6d;
+  color: #fff;
+  outline: none;
 }
 
 .container-np {
@@ -376,13 +498,12 @@ a {
   background: rgba(255, 255, 255, 0.02);
 }
 
-.background-image{
+.background-image {
   /* background-image: url(/static/images/pictures/saltoangel.jpg);
   background-size: 180%;
   padding-top: 100px;
   padding-bottom: 100px; */
- }
-
+}
 
 /*animate gradient*/
 
