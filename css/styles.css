@@ -366,6 +366,7 @@ a {
 .list-group-item {
   padding: 0.25rem 1.25rem;
   border: 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .list-group-item__child {
@@ -434,7 +435,13 @@ a {
   font-size: 1rem;
 }
 
-.nav-pills .nav-link.active:hover,
+.nav-pills .nav-link.active:hover{
+  background: linear-gradient(to right top, #36236b, #038a7e) !important;
+}
+
+.nav-pills .nav-link.active:not(:focus){
+  background: linear-gradient(to right top, #36236b, #038a7e);
+}
 .nav-pills .show > .nav-link:hover,
 .nav-pills .nav-link:hover {
   background: #312e6d;
@@ -530,5 +537,4 @@ body {
 .certification-row {
   display: flex;
   justify-content: space-around;
-  margin: 5px;
 }
