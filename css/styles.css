@@ -200,9 +200,10 @@ a {
   height: 50px;
   line-height: 50px;
   text-align: center;
-  background: #038a7e;
+  background: #fff;
+  border: solid 0.5px #25527c6b;
   border-radius: 50px;
-  color: #fff;
+  color: #212529;
   z-index: 9999;
   -webkit-transition: 0.2s opacity;
   transition: 0.2s opacity;
@@ -211,6 +212,7 @@ a {
 
 #back-to-top:hover {
   background-color: #36236b;
+  color: #fff;
 }
 
 #back-to-top:after {
@@ -229,6 +231,15 @@ a {
 
 .footer > a {
   color: white;
+}
+
+.link-button {
+  border-radius: 20px;
+  margin: 4px;
+  color: #211d5d;
+  padding: 8px 16px 8px 16px;
+  border: solid 0.5px #25527c6b;
+  white-space: nowrap;
 }
 
 .footer-button {
@@ -374,6 +385,27 @@ a {
   padding: 1em 1.25rem;
 }
 
+.list-group-item__new-feature {
+  background-color: #ecc6cea8;
+}
+
+.list-group-item__new-feature > div > .new-feature-button {
+  color: hsl(180deg 94% 63%);
+  font-weight: 900;
+  background-color: hsl(338deg 94% 42%);
+  padding: 10px;
+  border-radius: 20px;
+  letter-spacing: 1pt;
+}
+.list-group-item__new-feature > div > .new-feature-button:hover {
+  color: hsl(180deg 94% 63%);
+}
+
+.button-container {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 .list-group-item-light {
   color: #ffffff;
   background-color: #0e9393;
@@ -430,17 +462,17 @@ a {
 .nav-item {
   border: solid 0.5px #25527c6b;
   border-radius: 20px;
-  color: black;
+  color: #212529;
   padding: 10px;
   margin: 1px;
   font-size: 1rem;
 }
 
-.nav-pills .nav-link.active:hover{
+.nav-pills .nav-link.active:hover {
   background: linear-gradient(to right top, #36236b, #038a7e) !important;
 }
 
-.nav-pills .nav-link.active:not(:focus){
+.nav-pills .nav-link.active:not(:focus) {
   background: linear-gradient(to right top, #36236b, #038a7e);
 }
 .nav-pills .show > .nav-link:hover,
@@ -506,12 +538,12 @@ a {
   background: rgba(255, 255, 255, 0.02);
 }
 
-.background-image {
+/*.background-image {
   /* background-image: url(/static/images/pictures/saltoangel.jpg);
   background-size: 180%;
   padding-top: 100px;
-  padding-bottom: 100px; */
-}
+  padding-bottom: 100px; 
+}*/
 
 /*animate gradient*/
 
