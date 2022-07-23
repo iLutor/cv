@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "express": "4.17.1",
-    "html2canvas": "^1.0.0-rc.5",
-    "moment": "^2.24.0"
+    "html2canvas": "^1.0.0-rc.5"
   }
 }
