@@ -1,2 +1,0 @@
-  //npm run stop-win
-  //npm run stop-Linux
