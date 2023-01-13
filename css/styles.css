@@ -36,10 +36,17 @@ h4 {
 .hover-effect {
   color: white;
 }
+
 .hover-effect:hover {
-  transition: 3s ease cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 3s ease;
+  color: #0b0911;
+}
+
+.hover-effect-:hover {
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 3s ease;
   color: #312e6d;
 }
+
 
 .printable-text {
   color: black !important;
@@ -128,7 +135,7 @@ h4 {
   /*background-color: #0b0911; */
   color: white;
   padding: 1.75em 40px;
-  text-align: center;
+  text-align: left;
 }
 
 .about-me__secondary {
@@ -136,7 +143,7 @@ h4 {
   background-color: #312e6d;
   text-align: center;
   font-size: 1rem;
-  padding: 40px;
+  padding: 20px 40px;
 }
 
 .about-me > div > div > p {
@@ -440,6 +447,10 @@ a {
 
 .badge-dark {
   background-color: #36236b;
+}
+
+.badge-light {
+  background-color: #038c8166;
 }
 
 .nav-pills .nav-link {
